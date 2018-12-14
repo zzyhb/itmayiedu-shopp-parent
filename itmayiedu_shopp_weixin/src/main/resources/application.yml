@@ -1,0 +1,28 @@
+server:
+  port: 8088
+wechat:
+  mp:
+    appId: wx6fe65e0d9c65ef3b
+    secret: 2421fe770c8dc298578a663565889780
+    token:  good
+    aesKey:
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: weixin
+#thymeleaf\u6A21\u677F\u5F15\u64CE
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5
+    encoding: utf-8
+    servlet:
+      content-type: text/html
+  redis:
+      host: 47.99.84.178
+      port: 6379
+      password: 147258369
+      database: 10
+      timeout: 8000

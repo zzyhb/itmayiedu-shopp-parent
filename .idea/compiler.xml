@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="imayiedu-shopp-member-api" />
+        <module name="itmayiedu-shopp-common" />
+        <module name="itmayiedu-shopp-eurekaserver" />
+        <module name="itmayiedu-shopp-member" />
+        <module name="itmayiedu-shopp-pay" />
+        <module name="itmayiedu-shopp-sso" />
+        <module name="itmayiedu_shopp_weixin" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="imayiedu-shopp-member-api" target="1.8" />
+      <module name="itmayiedu-shopp-api" target="1.8" />
+      <module name="itmayiedu-shopp-common" target="1.8" />
+      <module name="itmayiedu-shopp-eurekaserver" target="1.8" />
+      <module name="itmayiedu-shopp-member" target="1.8" />
+      <module name="itmayiedu-shopp-parent" target="1.8" />
+      <module name="itmayiedu-shopp-pay" target="1.8" />
+      <module name="itmayiedu-shopp-sso" target="1.8" />
+      <module name="itmayiedu-shopp-ssoclient" target="1.8" />
+      <module name="itmayiedu-shopp-weixin" target="1.6" />
+      <module name="itmayiedu_shopp_weixin" target="1.8" />
+      <module name="sso" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

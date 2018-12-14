@@ -1,0 +1,26 @@
+server:
+  port: 8081
+#  context-path: /member
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: member
+  redis:
+    host: 47.99.84.178
+    password: 147258369
+    port: 6379
+    pool:
+      max-idle: 100
+      min-idle: 1
+      max-active: 1000
+      max-wait: -1
+  activemq:
+    broker-url: tcp://localhost:61616
+    user: admin
+    password: admin
+    pool:
+      enabled: false
+  
